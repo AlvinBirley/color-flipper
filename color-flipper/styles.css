@@ -1,10 +1,11 @@
 #container {
-    height: 450px;
-    width: auto;
+    height: 800px;
+    width: 100%;
     display: flex;
    align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 #currentColor {
@@ -14,6 +15,7 @@
     color: white;
     text-align: center;
     border-radius: 5px;
+    margin-top: 80px;
 }
 
 #button {
@@ -21,3 +23,17 @@
     border-radius: 5px;
 }
 
+#hex-div {
+    background-color: blue;
+    width: 683px;
+    height: 30px;
+    margin-top: -565px;
+    display:flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 8px 2px #464646;
+   
+}
+
+#p1, #p2 {
+margin-top: 5px;
+}
