@@ -1,24 +1,22 @@
-var a;
-a=document.getElementById("p1")
+let colorArray = ["red", "blue", "green", "yellow", "purple", "orange", "pink", "brown", "gray", "aqua", "burlywood", "chartreuse", "darkgreen", "firebrck" ]
 
-function flipper() {
-    console.log("It works!")
+const grabColor = getColor();
+
+  function getColor()
+{ 
+return colorArray[Math.floor(Math.random()*colorArray.length)];
+
 }
-
-a.onclick=flipper
-
-var b;
-
-b=document.getElementById("p2")
-
-function hex() {
-    console.log("It also works!")
-}
-
-b.onclick=hex
-
 
 function buttonPress() {
-    console.log("Look at that button go!")
+   let grabColor = getColor();
+    document.getElementById("bgc").innerHTML = grabColor;
+    document.getElementById('bodcontainer').style.backgroundColor = grabColor;
+   
 }
+
+buttonPress();
+
+
+
 
