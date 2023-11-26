@@ -1,2 +1,2 @@
-# My-portfolio
-My repo to store portfolio projects
+# color-flipper
+Change bg color to random color or hex #
