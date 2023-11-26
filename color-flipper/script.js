@@ -16,6 +16,20 @@ function buttonPress() {
    
 }
 
+function lottaHex() {
+
+ return Math.floor(Math.random()*16777215).toString(16);
+
+}
+
+function hexRando() {
+    let hexVar = lottaHex();
+     document.getElementById("bgc").innerHTML = hexVar;
+     document.getElementById('bodcontainer').style.backgroundColor = `${hexVar}`;
+     document.getElementById('button').style.backgroundColor = grabColor;
+    
+ }
+
 
 
 
